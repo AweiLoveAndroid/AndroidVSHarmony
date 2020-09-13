@@ -1,0 +1,20 @@
+{
+  "float":[
+    {
+      "name":"font_size",
+      "value":"30.6"
+    },
+    {
+      "name":"float_use",
+      "value":"$float:font_size"
+    },
+    {
+      "name":"pixel_size",
+      "value":"100px"
+    },
+    {
+      "name":"float_use2",
+      "value":"$float:pixel_size"
+    }
+  ]
+}

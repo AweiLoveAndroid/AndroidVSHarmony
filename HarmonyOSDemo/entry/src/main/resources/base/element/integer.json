@@ -1,0 +1,12 @@
+{
+  "integer":[
+    {
+      "name":"integer_numbers",
+      "value":100
+    },
+    {
+      "name":"integer_use",
+      "value":"$integer:integer_numbers"
+    }
+  ]
+}

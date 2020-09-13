@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <array name="normal_corlors">
+      <item>@android:color/black</item>
+      <item>@android:color/holo_red_light</item>
+      <item>@android:color/holo_green_dark</item>
+   </array>
+   <array name="custom_colors">
+      <item>#FFFF0000</item>
+      <item>#FF00FF00</item>
+      <item>#FF0000FF</item>
+   </array>
+
+
+</resources>

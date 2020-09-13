@@ -1,0 +1,21 @@
+{
+  "strarray":[
+    {
+      "name":"size",
+      "value":[
+        {
+          "value":"small"
+        },
+        {
+          "value":"$string:hello"
+        },
+        {
+          "value":"large"
+        },
+        {
+          "value":"extra large"
+        }
+      ]
+    }
+  ]
+}

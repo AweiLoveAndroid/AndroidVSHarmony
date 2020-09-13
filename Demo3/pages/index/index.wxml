@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="showList" wx:for="{{dataArr}}" wx:key="index">
+    <view class="showListItem">{{item}}</view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+{
+  "color":[
+    {
+      "name":"hot",
+      "value":"#ff0000"
+    },
+    {
+      "name":"red_use",
+      "value":"$color:hot"
+    }
+  ]
+}

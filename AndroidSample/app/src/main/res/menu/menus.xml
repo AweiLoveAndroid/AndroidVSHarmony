@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+        android:title="item1"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom|withText"/>
+    <group android:id="@+id/group">
+        <item android:id="@+id/group_item1"
+            android:onClick="onGroupItemClick"
+            android:title="group_item1"
+            android:icon="@android:drawable/ic_menu_add" />
+        <item android:id="@+id/group_item2"
+            android:onClick="onGroupItemClick"
+            android:title="group_item2"
+            android:icon="@android:drawable/ic_menu_call" />
+    </group>
+    <item android:id="@+id/submenu"
+        android:title="submenu_title"
+        app:showAsAction="ifRoom|withText" >
+        <menu>
+            <item android:id="@+id/submenu_item1"
+                android:title="submenu_item1" />
+        </menu>
+    </item>
+</menu>

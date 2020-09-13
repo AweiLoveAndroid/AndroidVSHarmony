@@ -1,0 +1,12 @@
+{
+  "boolean":[
+    {
+      "name":"config",
+      "value":true
+    },
+    {
+      "name":"boolean_use",
+      "value":"$boolean:config"
+    }
+  ]
+}

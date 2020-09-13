@@ -1,0 +1,12 @@
+{
+  "intarray":[
+    {
+      "name":"int_numbers",
+      "value":[
+        100,
+        200,
+        "$integer:integer_numbers"
+      ]
+    }
+  ]
+}
